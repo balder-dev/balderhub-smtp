@@ -1,5 +1,8 @@
+aiosmtpd==1.4.6
 alabaster==0.7.16
 astroid==3.3.11
+atpublic==7.0.0
+attrs==26.1.0
 babel==2.18.0
 balderhub-unit==0.0.1b0
 balderplugin-junit==0.0.3
