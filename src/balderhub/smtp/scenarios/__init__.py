@@ -1,6 +1,6 @@
-# TODO add classes / functions from module (if any)
-# TODO delete module if it has no sub elements
+from .scenario_send_and_read_back import ScenarioSendAndReadBack
+
 
 __all__ = [
-
+    'ScenarioSendAndReadBack',
 ]
