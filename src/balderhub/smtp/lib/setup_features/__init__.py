@@ -1,6 +1,7 @@
-# TODO add classes / functions from module (if any)
-# TODO delete module if it has no sub elements
+from .aiosmtpd_server_feature import AiosmtpdServerFeature
+from .smtplib_client_feature import SmtplibClientFeature
 
 __all__ = [
-
+    'AiosmtpdServerFeature',
+    'SmtplibClientFeature',
 ]
