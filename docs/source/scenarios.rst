@@ -5,10 +5,6 @@ Scenarios describe **what you need**. They define the tests and the necessary de
 scenarios that are implemented in this BalderHub package.
 
 
-.. note::
-    This BalderHub project doesn't have any scenarios.
 
-
-.. todo add your scenarios with .. autoclass
-    .. autoclass:: balderhub.smtp.scenarios.ScenarioMyTest
-        :members:
+.. autoclass:: balderhub.smtp.scenarios.ScenarioSendAndReadBack
+    :members:
