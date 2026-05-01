@@ -28,11 +28,6 @@ jobs:
           "ubuntu-py311",
           "ubuntu-py312",
           "ubuntu-py313",
-
-          "macos-py310",
-          "macos-py311",
-          "macos-py312",
-          "macos-py313",
         ]
 
         include:
@@ -61,19 +56,6 @@ jobs:
           - name: "ubuntu-py313"
             python: "3.13"
             os: ubuntu-latest
-
-          - name: "macos-py310"
-            python: "3.10"
-            os: macos-latest
-          - name: "macos-py311"
-            python: "3.11"
-            os: macos-latest
-          - name: "macos-py312"
-            python: "3.12"
-            os: macos-latest
-          - name: "macos-py313"
-            python: "3.13"
-            os: macos-latest
 
     steps:
       - name: Checkout code
